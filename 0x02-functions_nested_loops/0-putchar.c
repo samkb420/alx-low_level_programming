@@ -1,13 +1,24 @@
-#include <main.h>
-/*
-* Program to putchar
-* Return 0 Always for Success
-*/
+#include "main.h"
 
-int main(){
-char d ="_putchar"
+/**
+ * main - check the code for School students
+ *
+ * Program that prints _putchar, followed by a new line
+ *
+ * Return: always 0 (success)
+ */
 
-_putchar(d,"\n");
+int main(void)
+{
+	char s[] = "_putchar";
+	int i = 0;
 
-return (0);
+	while (s[i] != '\0')
+	{
+		_putchar(s[i]);
+		i++;
+	}
+	_putchar(10);
+
+	return (0);
 }
